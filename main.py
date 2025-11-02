@@ -22,7 +22,7 @@ def main():
         table_name='cleaned_insurance'
     )
 
-    print("\n🎯 ETL pipeline completed successfully and data stored in PostgreSQL!")
+    print("\n ETL pipeline completed successfully and data stored in PostgreSQL!")
 
 if __name__ == "__main__":
     main()

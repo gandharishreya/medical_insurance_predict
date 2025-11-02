@@ -1,7 +1,7 @@
 import pandas as pd
 
 def transform_data(df):
-    print("🔹 Step 2: Transforming data...")
+    print(" Step 2: Transforming data...")
 
     df = df.drop_duplicates()
 

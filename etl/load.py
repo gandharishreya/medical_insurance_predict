@@ -1,7 +1,7 @@
 from sqlalchemy import create_engine
 
 def load_to_postgres(df, db_name, user, password, host, port, table_name):
-    print("🔹 Step 3: Loading data into PostgreSQL...")
+    print(" Step 3: Loading data into PostgreSQL...")
 
     try:
         # Create SQLAlchemy engine
