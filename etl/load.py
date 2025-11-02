@@ -10,6 +10,6 @@ def load_to_postgres(df, db_name, user, password, host, port, table_name):
         # Load DataFrame to PostgreSQL table
         df.to_sql(table_name, engine, index=False, if_exists='replace')
 
-        print(f"✅ Successfully loaded data into table: {table_name}")
+        print(f" Successfully loaded data into table: {table_name}")
     except Exception as e:
-        print("❌ Error loading data to PostgreSQL:", e)
+        print(" Error loading data to PostgreSQL:", e)
